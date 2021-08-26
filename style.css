@@ -7,6 +7,13 @@ img{
   border-radius: 50px;
     bottom: 79px;
 }
+#malala{
+    transition: transform.2s;
+
+}
+#malala:hover{
+    transform: scale(0.9);
+}
 .line{
     height: 6px;
     background-color: black;
@@ -24,6 +31,7 @@ img{
     font-size: 22px;
 }
 .menu{
+    list-style: none;
     position: absolute;
     top: 10px;
     right: 30px;
@@ -42,4 +50,36 @@ img{
     right: 0;
     bottom: 0;
     background-image: linear-gradient(#fa0511,#eff707);
+}
+#about{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(#f7057a);
+}
+#favourite{
+   width: 100%;
+    height: 800px;
+    background-image: linear-gradient(#b45ee6); 
+}
+#work{
+   width: 100%;
+    height: 800px;
+    background-image: linear-gradient(#b45ee6); 
+}
+#inspiration{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(#f7057a); 
+}
+#my{
+    transition: transform.2s;
+}
+#my:hover{
+    transform: scale(0.9);
+}
+#in{
+  transition: transform.2s;  
+}
+#in:hover{
+    transform: scale(0.9);
 }
