@@ -54,17 +54,17 @@ img{
 #about{
     width: 100%;
     height: 800px;
-    background-image: linear-gradient(#f7057a);
+    background-image: linear-gradient(#f7057a,#b45ee6);
 }
 #favourite{
    width: 100%;
     height: 800px;
-    background-image: linear-gradient(#b45ee6); 
+    background-image: linear-gradient(#71ebeb,#b45ee6); 
 }
 #work{
    width: 100%;
     height: 800px;
-    background-image: linear-gradient(#b45ee6); 
+    background-image: linear-gradient(#f0504a,#f244e7); 
 }
 #inspiration{
     width: 100%;
