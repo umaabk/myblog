@@ -1,47 +1,17 @@
-body{
-  text-align:center;
-  font-style:italic;
-   background-image: linear-gradient(#f26fcd,#f20505);
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    font-style: italic;
 }
-img{
-  border-radius: 50px;
-    bottom: 79px;
-}
-#malala{
-    transition: transform.2s;
 
+.profile {
+    width: 180px;
+    margin-bottom: 50px;
+    border-radius: 50px;
 }
-#malala:hover{
-    transform: scale(0.9);
-}
-.line{
-    height: 6px;
-    background-color: black;
-    width: 70px;
-    margin: 8px auto;
-}
-.link{
-    float: center;
-    color: aqua;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 9px;
-    padding-right: 9px;
-    font-family: monospace;
-    font-size: 22px;
-}
-.menu{
-    list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    cursor: pointer;
-    z-index: 10;
-}
-.link:hover{
-    background-color: blue;
-}
-#welcome{
+
+#welcome {
     position: absolute;
     height: 800px;
     color: black;
@@ -49,37 +19,70 @@ img{
     top: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(#fa0511,#eff707);
+    background-image: linear-gradient(#fa0511, #eff707);
 }
-#about{
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.link {
+    display: inline;
+    color: fuchsia;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.menu {
+    list-style: none;
+    position:fixed;
+    background:white;
+    margin-top: 0px;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
     width: 100%;
-    height: 800px;
-    background-image: linear-gradient(#f7057a,#b45ee6);
 }
-#favourite{
-   width: 100%;
-    height: 800px;
-    background-image: linear-gradient(#71ebeb,#b45ee6); 
+
+.link:hover {
+    
+    background-color: blue;
+    font-size: 30px;
+    text-decoration: underline;
 }
-#work{
-   width: 100%;
-    height: 800px;
-    background-image: linear-gradient(#f0504a,#f244e7); 
+
+a {
+    text-decoration: none;
 }
-#inspiration{
+
+.article:hover {
+    color: crimson;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#writings a{
+    text-shadow:none !important;
+    text-decoration: underline !important;
+}
+#contact{
+    background: firebrick;
+}
+#contact iframe{
     width: 100%;
-    height: 800px;
-    background-image: linear-gradient(#f7057a); 
 }
-#my{
-    transition: transform.2s;
+.contact_1 h3{
+    display: inline;
 }
-#my:hover{
-    transform: scale(0.9);
+.contact_1 a{
+    color: darkorange;
 }
-#in{
-  transition: transform.2s;  
-}
-#in:hover{
-    transform: scale(0.9);
-}
+
+
