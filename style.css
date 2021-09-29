@@ -1,0 +1,47 @@
+body
+{
+    text-align: center;
+}
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+#school {
+    font-family:sans-serif ;
+    padding: 50px;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    text-decoration-color: black;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+#karthik{
+    width:300px;
+    height: 400px;
+}
+img{
+width: 300px;
+    height: 303px;
+}
+#school-draw{
+width: 200px;
+   height: 153px;  
+}
